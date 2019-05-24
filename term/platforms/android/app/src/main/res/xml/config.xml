@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sumin.matzip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.sumin.matzip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/ns/widgets ">
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
@@ -72,4 +72,26 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <platform name="android">
+        <!-- 세로모드에서의 인트로 이미지 -->
+        <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi" />
+        <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi" />
+        <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi" />
+        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi" />
+        <!-- 가로모드에서의 인트로 이미지 -->
+        <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi" />
+        <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi" />
+        <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi" />
+        <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi" />
+    </platform>
+    <!-- 인트로 화면 자동 종료 방지 -->
+    <preference name="AutoHideSplashScreen" value="false" />
+
+    <!-- 인트로화면이 단말기 방향 전환시 함께 회전할지 여부(android용)-->
+    <preference name="SplashMaintainAspectRatio" value="false" />
 </widget>
+

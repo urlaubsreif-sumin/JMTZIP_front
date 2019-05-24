@@ -369,6 +369,14 @@ module.exports = [
       "navigator.notification",
       "navigator"
     ]
+  },
+  {
+    "id": "cordova-plugin-splashscreen.SplashScreen",
+    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+    "pluginId": "cordova-plugin-splashscreen",
+    "clobbers": [
+      "navigator.splashscreen"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -384,7 +392,8 @@ module.exports.metadata =
   "cordova-plugin-globalization": "1.0.9",
   "cordova-plugin-inappbrowser": "1.7.2",
   "cordova-plugin-network-information": "1.3.4",
-  "cordova-plugin-vibration": "2.1.6"
+  "cordova-plugin-vibration": "2.1.6",
+  "cordova-plugin-splashscreen": "5.0.4-dev"
 };
 // BOTTOM OF METADATA
 });
