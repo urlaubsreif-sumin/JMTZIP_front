@@ -50,23 +50,10 @@
             <p class="event received">Device is Ready</p>
         </div>
     </div>
-    <!-- jQuery script 참조 -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-    <!-- cordova script 참조 -->
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
-        /** jQuery 화면 초기화 이벤트 */
-    $(function() {
-        /** phonegap 초기화 이벤트 */
-        // 이 이벤트가 발생했다는 것은 cordova의 초기화가 모두 완료되었다는 의미.
-        $(document).on('deviceready', function() {
-            setTimeout(function () {
-                navigator.splashscreen.hide();
-            }, 1000);
-        });
-    });
-        /** app.initialize(); */
+        app.initialize();
     </script>
 </body>
 
