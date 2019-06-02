@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="FULL"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1559451351044"
+    timestamp="1559452449678"
     token="4325644302452428342"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,46 +23,9 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1559451351044"
+        timestamp="1559452319666"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -101,5 +64,9 @@
             location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1559452449678"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
