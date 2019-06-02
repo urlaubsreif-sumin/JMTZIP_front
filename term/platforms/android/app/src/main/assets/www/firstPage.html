@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/firstPage.css" />
+    <title>firstPage</title>
+</head>
+
+<body>
+<div class="header">
+    <button onclick="window.location.href='./index.html'">[<<]</button>
+    <p>골라줘!</p>
+</div>
+<div class="body">
+    <div class="content1">
+        <p>너의 취향을 알려줘!</p>
+        <input type="checkbox" name="type" value="hansik">한식
+        <input type="checkbox" name="type" value="joongsik">중식
+        <input type="checkbox" name="type" value="ilsik">일식
+        <input type="checkbox" name="type" value="boonsik">분식
+        <input type="checkbox" name="type" value="yangsik">양식
+        <input type="checkbox" name="type" value="dosirak">도시락
+        <input type="checkbox" name="type" value="pizza">피자
+        <input type="checkbox" name="type" value="chicken">치킨
+        <input type="checkbox" name="type" value="etc">기타
+    </div>
+    <div class="content2">
+        <p>몇 명이서 먹어?</p>
+        <input type="checkbox" name="personnel" value="honbap">혼밥
+        <input type="checkbox" name="personnel" value="twofour">2~4명
+        <input type="checkbox" name="personnel" value="group">단체
+    </div>
+    <div class="content3">
+        <p>어디가 좋아?</p>
+        <input type="checkbox" name="location" value="jeongmoon">정문
+        <input type="checkbox" name="location" value="bookmoon">북문
+        <input type="checkbox" name="location" value="jjokmoon">쪽문
+    </div>
+    <div class="content4">
+        <p>가격대는?</p>
+        <input type="text" name="price" size="10"> ~ <input type="text" name="price" size="10">
+    </div>
+</div>
+<div class="go">
+    <button onclick="window.location.href='./subFirstPage.html'">[ GO! ]</button>
+</div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/secondPage.js"></script>
+
+</body>
+
+</html>
