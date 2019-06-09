@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\GitHub\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\GitHub\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
-                        "startOffsets": "158,55,99",
+                        "startOffsets": "162,57,102",
                         "endColumns": "63,43,58",
-                        "endOffsets": "217,94,153"
+                        "endOffsets": "221,96,156"
                     },
                     "to": {
                         "startLines": "2,3,4",
