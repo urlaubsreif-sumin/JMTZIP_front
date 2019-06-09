@@ -1,0 +1,93 @@
+@charset "utf-8"
+  /* for mobile */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,
+code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+
+  display:flex;
+  background:white;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+}
+body{
+  display:flex;
+  background:white;
+  flex-direction:column;
+  justify-content:space-around;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  justify-content:basline;
+  color:#b12331;
+}
+.header button{
+  border:none;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
+}
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+.body{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+.content {
+  display:flex;
+  flex-direction:column;
+}
+.buttons{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-flow:wrap;
+}
+.custombox {
+    margin:4px;
+    width:5.0em;
+    text-align:center;
+    background-color:white;
+    border-radius:10px ;
+    border:2px solid #b12331;
+    padding: 5px;
+    overflow:auto;
+    float:left;
+}
+
+.custombox label {
+    float:left;
+    width:20%;
+}
+.custombox :hover,.custombox:active{
+  background-color:#b12331;
+}
+.custombox label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+    background-color:#b12331;
+}
+
+.buttons input:checked + span {
+    background-color:#b12331;
+    color:white;
+}
+.go button{
+  width:100%;
+  background-color:#b12331;
+  border:20px solid white;
+  color:white;
+  font-size:1.3em;
+  padding:5px;
+
+}

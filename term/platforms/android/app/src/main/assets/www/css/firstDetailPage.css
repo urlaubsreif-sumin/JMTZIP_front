@@ -56,14 +56,16 @@ table td{
   border:1px solid #cdcdcd
 }
 .body button{
-  border-radius:50%;
-  font-size:2em;
+  border-radius:18px;
+  font-size:1.3em;
   padding:5px;
-  float:right;
+  width:25%;
   border:none;
   background-color:#b12331;
   color:white;
   text-align:center;
   font-weight:bold;
-
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }

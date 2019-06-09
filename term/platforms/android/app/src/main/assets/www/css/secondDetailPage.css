@@ -26,13 +26,14 @@ body{
   display:flex;
   flex-direction:row;
   justify-content:basline;
-  color:#b12331;
+  background-color:#b12331;
+  color:white;
   font-weight:bold;
 }
 .header button{
-  background:white;
+  background-color:#b12331;
   font-weight:bold;
-  color:#b12331;
+  color:white;
   padding:1em;
   border:none;
 }
@@ -43,27 +44,22 @@ body{
 table{
   width:100%;
   text-align:center;
-  border:1px solid #cdcdcd;
+  padding:15px;
 }
 table th{
   background:#eaeaea;
   border: 1px solid #eaeaea;
   padding:5px;
-  border:1px solid #cdcdcd;
 }
 table td{
   padding:8px;
-  border:1px solid #cdcdcd
 }
 .body button{
   border-radius:50%;
-  font-size:2em;
-  padding:5px;
-  float:right;
-  border:none;
-  background-color:#b12331;
+  border:1.5px solid #b12331;
+  background-color : #b12331;
   color:white;
-  text-align:center;
   font-weight:bold;
-
+  float:right;
+  font-size:1.5em;
 }
