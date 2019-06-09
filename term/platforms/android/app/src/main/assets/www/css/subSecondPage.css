@@ -16,54 +16,43 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
   flex-wrap:nowrap;
   justify-content:space-around;
 }
+
 body{
   display:flex;
-  background:white;
+  background-color:white;
   flex-direction:column;
   justify-content:space-around;
 }
 .header{
   display:flex;
   flex-direction:row;
-  justify-content:basline;
-  color:#b12331;
+  justify-content:space-between;
+  height:3em;
+  background-color:#b12331;
+  color:white;
   font-weight:bold;
 }
 .header button{
-  background:white;
-  font-weight:bold;
-  color:#b12331;
-  padding:1em;
+  flex-grow:1;
+  background-color:#b12331;
   border:none;
+  color:white;
 }
-.header button:hover ,.herader button:active{
-  background:#eaeaea;
-  border:none;
-}
-table{
-  width:100%;
-  text-align:center;
-  border:1px solid #cdcdcd;
-}
-table th{
-  background:#eaeaea;
-  border: 1px solid #eaeaea;
-  padding:5px;
-  border:1px solid #cdcdcd;
-}
-table td{
-  padding:8px;
-  border:1px solid #cdcdcd
-}
-.body button{
-  border-radius:50%;
-  font-size:2em;
-  padding:5px;
-  float:right;
-  border:none;
+.header input{
+  flex-grow:4;
   background-color:#b12331;
   color:white;
-  text-align:center;
-  font-weight:bold;
+  border:none;
+}
+.body{
+  margin-left:auto;
+  margin-right:auto;
 
+}
+.body button{
+  border:none;
+  font-size:1em;
+  text-align:center;
+  border-radius:13px;
+  padding:5px;
 }
