@@ -23,7 +23,7 @@ body{
   background-color:white;
   flex-direction:column;
   justify-content:space-around;
-
+  font-size:18px;
 }
 .header{
   display:flex;
@@ -33,12 +33,14 @@ body{
   border:3px solid #b12331;
   color:white;
   font-weight:bold;
+
 }
 .header button{
   flex-grow:1;
   background-color:#b12331;
   border:2px solid #b12331;
   color:white;
+  font-size:18px;
 }
 .header input{
   flex-grow:4;
