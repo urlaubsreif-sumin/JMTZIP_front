@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jun 15 03:29:25 KST 2019
+#Sat Jun 15 08:35:56 KST 2019
 2.path=www/res/screen/windows/SplashScreenPhone.scale-240.png
 14.set=ASSET
 107.baseType=DIRECTORY
@@ -500,7 +500,7 @@ count=159
 16.baseType=DIRECTORY
 136.baseType=DIRECTORY
 53.path=www/css/commentPage.css
-80.path=www/res/icon/windows/Square150x150Logo.scale-240.png
+80.path=www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js
 19.set=DEX
 131.baseType=DIRECTORY
 65.set=ASSET
@@ -555,12 +555,12 @@ count=159
 27.path=www/spec/lib/jasmine-1.2.0/jasmine.css
 32.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 83.baseType=DIRECTORY
-79.path=www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js
+79.path=www/js/db.js
 68.set=ASSET
 84.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 54.path=www/plugins/cordova-plugin-file/www/fileSystems.js
 49.baseType=DIRECTORY
-81.path=www/js/db.js
+81.path=www/res/icon/windows/Square150x150Logo.scale-240.png
 29.set=ASSET
 75.set=ASSET
 44.baseType=DIRECTORY
