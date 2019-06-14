@@ -43,7 +43,7 @@ body{
 .header input{
   flex-grow:4;
   background-color:white;
-  color:white;
+  color:black;
   border:none;
 }
 .body{
