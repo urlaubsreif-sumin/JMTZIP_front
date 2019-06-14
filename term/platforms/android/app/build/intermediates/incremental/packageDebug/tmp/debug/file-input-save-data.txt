@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jun 14 18:59:26 KST 2019
+#Fri Jun 14 20:35:15 KST 2019
 2.path=www/res/screen/windows/SplashScreenPhone.scale-240.png
 14.set=ASSET
 107.baseType=DIRECTORY
@@ -497,7 +497,7 @@ count=158
 83.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 16.baseType=DIRECTORY
 136.baseType=DIRECTORY
-53.path=www/plugins/cordova-plugin-file/www/fileSystems.js
+53.path=www/css/commentPage.css
 80.path=www/res/icon/windows/Square150x150Logo.scale-240.png
 19.set=DEX
 131.baseType=DIRECTORY
@@ -555,7 +555,7 @@ count=158
 79.path=www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js
 68.set=ASSET
 84.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-54.path=www/plugins/cordova-plugin-file/www/LocalFileSystem.js
+54.path=www/plugins/cordova-plugin-file/www/fileSystems.js
 49.baseType=DIRECTORY
 81.path=classes.dex
 29.set=ASSET
@@ -603,7 +603,7 @@ count=158
 15.baseType=DIRECTORY
 78.set=ASSET
 85.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
-55.path=www/css/commentPage.css
+55.path=www/plugins/cordova-plugin-file/www/LocalFileSystem.js
 60.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 30.path=www/res/screen/ios/Default-Portrait~ipad.png
 82.path=www/css/firstDetailPage.css
