@@ -10,6 +10,7 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
   outline:0;
   font-size:100%;
 
+
   display:flex;
   background:white;
   flex-direction:column;
@@ -22,25 +23,26 @@ body{
   background-color:white;
   flex-direction:column;
   justify-content:space-around;
+
 }
 .header{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
   height:3em;
-  background-color:#b12331;
+  border:3px solid #b12331;
   color:white;
   font-weight:bold;
 }
 .header button{
   flex-grow:1;
   background-color:#b12331;
-  border:none;
+  border:2px solid #b12331;
   color:white;
 }
 .header input{
   flex-grow:4;
-  background-color:#b12331;
+  background-color:white;
   color:white;
   border:none;
 }
