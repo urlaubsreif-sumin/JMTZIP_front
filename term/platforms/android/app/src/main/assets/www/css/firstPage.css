@@ -20,19 +20,24 @@ body{
   display:flex;
   background:white;
   flex-direction:column;
-  justify-content:space-around;
+  justify-content:space-between;
+  align-itmes:center;
 }
 .header{
   display:flex;
   flex-direction:row;
   justify-content:basline;
   color:#b12331;
+  font-weight:bold;
+  font-size:20px;
 }
 .header button{
   border:none;
   background-color:white;
   color:#b12331;
   padding:20px;
+  font-weight:bold;
+  font-size:20px;
 }
 .header button:active, .header button:hover{
   background:#f3f3f3
@@ -42,45 +47,65 @@ body{
   flex-direction:column;
   justify-content:space-around;
 }
-.content {
-  display:flex;
-  flex-direction:column;
+.content p{
+  font-weight:bold;
+  color:#b12331;
+  font-size:18px;
 }
 .buttons{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-  flex-flow:wrap;
+  list-style:none;
 }
-.custombox {
-    margin:4px;
-    width:5.0em;
-    text-align:center;
-    background-color:white;
-    border-radius:10px ;
-    border:2px solid #b12331;
-    padding: 5px;
-    overflow:auto;
-    float:left;
+.buttons li{
+  display:inline;
 }
+.buttons li label{
+  display:inline-block;
+  border: 2px solid #cccccc;
+  background-color:white;
+  color:#666666;
+  border-radius:25px;
+  white-space:nowrap;
+  margin:3px 0px;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+  transition:all .2s;
+  }
+.buttons li label{
+  padding: 8px 12px;
+  cursor:pointer;
+}
+.buttons li label::before{
+  display:inline-block;
+  font-style:normal;
+  font-variant:normal;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  font-family:"Font Awesome 5 Free";
+  font-weight:900;
+  font-size:12px;
+  padding:2px 6px 2px 2px;
+  transition:transform .3s ease-in-out;
+}
+.buttons li input[type="checkbox"]:checked + label::before{
+  transition:transform .3s ease-in-out;
+}
+.buttons li input[type="checkbox"]:checked+label{
+  background-color:#c04e5a;
+  border:2px solid #b12331;
 
-.custombox label {
-    float:left;
-    width:20%;
+  color:white;
+  transition:all .2s;
 }
-.custombox :hover,.custombox:active{
-  background-color:#b12331;
+.buttons li input[type="checkbox"]{
+  display:absolute;
+  opacity:0;
 }
-.custombox label span {
-    text-align:center;
-    padding:3px 0px;
-    display:block;
-    background-color:#b12331;
-}
-
-.buttons input:checked + span {
-    background-color:#b12331;
-    color:white;
+.buttons li input[type="chekbox"]:focus+label{
+  border:2px solid #9a1ff;
 }
 .go button{
   width:100%;

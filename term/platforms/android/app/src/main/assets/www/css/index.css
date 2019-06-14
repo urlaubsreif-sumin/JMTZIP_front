@@ -18,6 +18,11 @@
  */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+
+}
+html{
+  width:100%;
+  height:100%;
 }
 
 body {
@@ -48,6 +53,9 @@ body {
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -67,7 +75,7 @@ body {
 .title {
   display:flex;
   justify-content:space-around;
-
+  font-size:21px;
   color:#b21f32;
 }
 .title #jumsim {
@@ -84,9 +92,11 @@ body {
   color:#321a28;
   font-size: 20px;
   background-color:white;
-  padding: 10px;
+  padding: 0.4em;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+
+
 }
 .button:hover, .button:active{
   background-color:#b21f32;
