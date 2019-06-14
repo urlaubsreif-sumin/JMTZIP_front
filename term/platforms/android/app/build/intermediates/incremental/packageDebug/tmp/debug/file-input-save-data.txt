@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sat Jun 15 05:01:57 KST 2019
+=======
+#Sat Jun 15 03:20:28 KST 2019
+>>>>>>> parent of a48b4e2... commit 6/15 3:30
 2.path=www/res/screen/windows/SplashScreenPhone.scale-240.png
 14.set=ASSET
 107.baseType=DIRECTORY
