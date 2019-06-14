@@ -23,34 +23,34 @@
 
     <div class="content content1">
         <p>너의 취향을 알려줘!</p>
-        <div class="buttons buttons1">
-            <label class="custombox"><input type="checkbox" name="type" value="hansik">한식<span class="checkmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="joongsik">중식<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="ilsik">일식<span class="checkmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="boonsik">분식<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="yangsik">양식<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="dosirak">도시락<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="pizza">피자<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="chicken">치킨<span class="chekmark"></span></label>
-            <label class="custombox"><input type="checkbox" name="type" value="etc">기타<span class="chekmark"></span></label>
-        </div>
+        <ul class="buttons buttons1">
+            <li><input type="checkbox" id="checkboxHansik" value="hansik"><label for="checkboxHansik">한식</label></li>
+            <li><input type="checkbox" id="checkboxJoongsik" value="joongsik"><label for="checkboxJoongsik">중식</label></li>
+            <li><input type="checkbox" id="checkboxIlsik" value="ilsik"><label for="checkboxIlsik">일식</label></li>
+            <li><input type="checkbox" id="checkboxBoonsik" value="boonsik"><label for="checkboxBoonsik">분식</label></li>
+            <li><input type="checkbox" id="checkboxYangsik" value="yangsik"><label for="checkboxYangsik">양식</label></li>
+            <li><input type="checkbox" id="checkboxDosirak" value="dosirak"><label for="checkboxDosirak">도시락</label></li>
+            <li><input type="checkbox" id="checkboxPizza" value="pizza"><label for="checkboxPizza">피자</label></li>
+            <li><input type="checkbox" id="checkboxChicken" value="chicken"><label for="checkboxChicken">치킨</label></li>
+            <li><input type="checkbox" id="checkboxEtc" value="etc"><label for="checkboxEtc">기타</label></li>
+        </ul>
     </div>
 </div>
 <div class="content content2">
     <p>몇 명이서 먹어?</p>
-    <div class="buttons buttons2">
-        <label class="custombox"><input type="checkbox" name="personnel" value="honbap">혼밥<span class="chekmark"></span></label>
-        <label class="custombox"><input type="checkbox" name="personnel" value="twofour">2~4명<span class="chekmark"></span></label>
-        <label class="custombox"><input type="checkbox" name="personnel" value="group">단체<span class="chekmark"></span></label>
-    </div>
+    <ul class="buttons buttons2">
+        <li><input type="checkbox" id="checkboxhonbap" value="honbap"><label for="checkboxhonbap">혼밥</label></li>
+        <li><input type="checkbox" id="checkboxfour" value="twofour"><label for="checkboxfour">2~4명</label></li>
+        <li><input type="checkbox" id="checkboxgroup" value="group"><label for="checkboxgroup">단체</label></li>
+    </ul>
 </div>
 <div class="content content3">
     <p>어디가 좋아?</p>
-    <div class="buttons buttons3">
-        <label class="custombox"><input type="checkbox" name="location" value="jeongmoon">정문<span class="chekmark"></span></label>
-        <label class="custombox"><input type="checkbox" name="location" value="bookmoon">북문<span class="chekmark"></span></label>
-        <label class="custombox"><input type="checkbox" name="location" value="jjokmoon">쪽문<span class="chekmark"></span></label>
-    </div>
+    <ul class="buttons buttons3">
+        <li><input type="checkbox" id="checkboxJeongmoon" value="jeongmoon"><label for="checkboxJeongmoon">정문</label></li>
+        <li><input type="checkbox" id="checkboxBookmoon" value="bookmoon"><label for="checkboxBookmoon">북문</label></li>
+        <li><input type="checkbox" id="checkboxJjokmoon" value="jjokmoon"><label for="checkboxJjokmoon">쪽문</label></li>
+    </ul>
 </div>
 <div class="content content4">
     <p>가격대는?</p>
@@ -58,7 +58,7 @@
         <input type="text" name="price" size="10"> ~ <input type="text" name="price" size="10">
     </div>
 </div>
-</div>
+
 <div class="go">
     <button onclick="window.location.href='./subFirstPage.html'">GO!</button>
 </div>
