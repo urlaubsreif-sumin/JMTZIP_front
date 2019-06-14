@@ -36,9 +36,6 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.sumin.matzip"
-    },
-    "cordova-sqlite-storage": {
-      "PACKAGE_NAME": "com.sumin.matzip"
     }
   },
   "dependent_plugins": {
