@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1560535357625"
+    timestamp="1560536425987"
     token="4325644302452428342"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1560535357625"
+        timestamp="1560536425987"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
