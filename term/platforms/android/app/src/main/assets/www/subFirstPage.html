@@ -15,7 +15,18 @@
     function createTable(){
         db.transaction(function(tx){
             tx.executeSql('CREATE TABLE IF NOT EXISTS testTable (name, score)');
-            tx.executeSql('SELECT * FROM testTable', [], successCB, errorCB);
+        });
+    }
+
+    function insertData(){
+        db.transaction(function(tx){
+            tx.executeSql("insert into testTable values(?,?)", [txtName.value, txtScore.value]);
+        });
+    }
+
+    function selectData(){
+        db.transaction(function(tx){
+            tx.executeSql("select * from testTable", [], successCB);
         });
     }
 
@@ -23,7 +34,7 @@
         alert('success!');
         for(var i = 0; i < result.rows.length; i++){
             var row = result.rows.item(i);
-            document.getElementById('resultTable').innerHTML += "<tr><td>" + row['name'] + "</td><td>" + row['score'] + "</td><td></td></tr>" + ;
+            document.getElementById('resultTable').innerHTML += "<tr><td>" + row['name'] + "</td><td>" + row['score'] + "</td><td></td></tr>";
         }
     }
 </script>
@@ -82,7 +93,7 @@
 </div>
 <!--------------------------------FOR TEST------------------------------------>
 <div>
-    <button onclick="getData()">C R E A T E</button>
+    <button onclick="createTable()">C R E A T E</button>
     Name: <input type="text" id="txtName">, Score: <input type="text" id="txtScore">
     <p></p>
     <button onclick="insertData()">I N S E R T</button>
