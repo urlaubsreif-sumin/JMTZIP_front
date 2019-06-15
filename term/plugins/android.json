@@ -39,6 +39,9 @@
     },
     "cordova-sqlite-storage": {
       "PACKAGE_NAME": "com.sumin.matzip"
+    },
+    "cordova-plugin-dbcopy": {
+      "PACKAGE_NAME": "com.sumin.matzip"
     }
   },
   "dependent_plugins": {

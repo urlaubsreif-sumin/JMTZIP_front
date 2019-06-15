@@ -11,15 +11,15 @@ INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platfo
 	android:name
 		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:12:127-181
 manifest
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [:CordovaLib] C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-27:12
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\3c9036405849154d6f26085b501eb9aa\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:2:102-128
 		INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml
@@ -93,41 +93,41 @@ ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms
 	android:name
 		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:17:22-78
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.RECORD_VIDEO
 ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:18:5-71
 	android:name
 		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:18:22-68
-uses-permission#android.permission.RECORD_VIDEO
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:19:5-71
-	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:19:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:20:5-80
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:20:22-77
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:19:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:21:5-81
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:21:22-78
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:22:5-79
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:22:22-76
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:21:22-76
 uses-feature#android.hardware.location.gps
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:23:5-66
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:22:5-66
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:23:19-63
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:22:19-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:24:5-79
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:24:22-76
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:25:5-66
+ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:25:22-63
+		ADDED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml:24:22-63
 uses-sdk
 INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\Desktop\lecture\2019_Spring\JMTZIP_front\term\platforms\android\app\src\main\AndroidManifest.xml

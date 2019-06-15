@@ -1,9 +1,15 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 var db;
 function onDeviceReady() {
-    alert('start!');
-    db = window.sqlitePlugin.openDatabase({name: "testDB", location: "default", androidDatabaseProvider: 'system'});
-    alert('db set!');
+    window.plugins.sqlDB.copy("matzipList.db", 2,
+        function(tx, result) {
+             alert("copy success!!");
+        },
+        function(error) {
+             alert("copy failed");
+        }
+    );
+    db = window.sqlitePlugin.openDatabase({name: "matzipList.db", location: "default"});
 }
 
 function createTable(){
