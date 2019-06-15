@@ -21,12 +21,12 @@ body{
   background:white;
   flex-direction:column;
   justify-content:space-between;
-  align-itmes:center;
+  align-items:center;
 }
 .header{
   display:flex;
   flex-direction:row;
-  justify-content:basline;
+  justify-content:baseline;
   color:#b12331;
   font-weight:bold;
   font-size:20px;
