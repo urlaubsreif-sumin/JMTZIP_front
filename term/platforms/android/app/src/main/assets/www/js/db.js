@@ -14,7 +14,7 @@ function onDeviceReady() {
 
 function createTable(){
     db.transaction(function(tx){
-         tx.executeSql('CREATE TABLE IF NOT EXISTS testTable (name, score)', [],
+         tx.executeSql('CREATE TABLE IF NOT EXISTS testTable (id, name, category, address, location, time, cost, score, personnel)', [],
               function(tx, result) {
                    alert("success!!");
               },
@@ -26,7 +26,7 @@ function createTable(){
 
 function insertData(){
     db.transaction(function(tx){
-         tx.executeSql("INSERT INTO testTable VALUES(?,?)", [txtName.value, txtScore.value]);
+         tx.executeSql("INSERT INTO testTable VALUES(?,?,?,?,?,?,?,?,?)", [txtID.value, txtName.value, txtCategory.value, txtAddress.value, txtLocation.value, txtTime.value, txtCost.value, txtScore.value, txtPersonnel.value]);
     });
 }
 
@@ -41,5 +41,6 @@ function successCB(tx, res){
     for(var i = 0; i < res.rows.length; i++){
           var row = res.rows.item(i);
           document.getElementById('resultTable').innerHTML += "<tr><td>" + row['name'] + "</td><td>" + row['score'] + "</td><td></td></tr>";
+          <button onclick="window.location.href='./subFirstPage.html'">검색</button>
     }
 }
