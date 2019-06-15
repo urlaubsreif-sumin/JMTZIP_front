@@ -14,13 +14,24 @@
 
 <body>
 <div class="title">
+    <button onclick="history.go(-1)"> < </button>
+
     <h1>오늘 <b id = jumsim>점심 </b>뭐먹지?</h1>
 </div>
 <div class="body">
-    <button class="button button1" onclick="window.location.href='./firstPage.html'">골라줘!</button>
-    <button class="button button2" onclick="window.location.href='./secondPage.html'">고를게!</button>
-    <button class="button button3" onclick="window.location.href='./list.html'">목록보기</button>
+    <table id = "resultTable">
+        <th>가게 명</th>
+        <th>평점</th>
+        <th>자세히</th>
+    </table>
 </div>
+<button onclick="selectData()">T E S T</button>
+<button onclick="window.location.href='./regMenuPage.html'">[+]</button>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/secondPage.js"></script>
+
 </body>
 
 </html>
