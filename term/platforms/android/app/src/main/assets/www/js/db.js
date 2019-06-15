@@ -1,7 +1,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 var db;
 function onDeviceReady() {
-    window.plugins.sqlDB.copy("matzipList.db", 2,
+    window.plugins.sqlDB.copy("matzip", 0,
         function(tx, result) {
              alert("copy success!!");
         },
@@ -9,7 +9,7 @@ function onDeviceReady() {
              alert("copy failed");
         }
     );
-    db = window.sqlitePlugin.openDatabase({name: "matzipList.db", location: "default"});
+    db = window.sqlitePlugin.openDatabase({name: "matzip.db", location: "default"});
 }
 
 function createTable(){
