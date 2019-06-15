@@ -3,7 +3,7 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,
 code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
 form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
-figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+figcaption,figure,footer,header,hgroup,menu,nav,edit list layoutsection,summary,time,mark,audio,video{
   margin:0;
   padding:0;
   border:0;
@@ -44,7 +44,8 @@ body{
   background:white;
   flex-direction:column;
   justify-content:space-around;
-}.header{
+}
+.header{
   display:flex;
   flex-direction:row;
   justify-content:baseline;
@@ -124,4 +125,18 @@ input{
   background:none;
   color:#b12331;
   font-weight:700;
+}
+.plusButton{
+  border-radius:50%;
+  width:3em;
+  height:3em;
+  background-color:#b12331;
+  color:white;
+  position:absolute;
+  bottom:2em;
+  right:2em;
+}
+/*for test*/
+.testinput{
+  border:1px solid black;
 }
