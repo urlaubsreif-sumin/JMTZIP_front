@@ -16,17 +16,10 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
   flex-wrap:nowrap;
   justify-content:space-around;
 }
-body{
-  display:flex;
-  background:white;
-  flex-direction:column;
-  justify-content:space-between;
-  align-itmes:center;
-}
+
 .header{
   display:flex;
   flex-direction:row;
-  justify-content:basline;
   color:#b12331;
   font-weight:bold;
   font-size:20px;
@@ -45,7 +38,6 @@ body{
 .body{
   display:flex;
   flex-direction:column;
-  justify-content:space-around;
 }
 .content p{
   font-weight:bold;
@@ -65,7 +57,7 @@ body{
   color:#666666;
   border-radius:25px;
   white-space:nowrap;
-  margin:3px 0px;
+  margin:0.2em 0em;
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -moz-user-select:none;
@@ -75,7 +67,7 @@ body{
   transition:all .2s;
   }
 .buttons li label{
-  padding: 8px 12px;
+  padding: 0.3em 1em;
   cursor:pointer;
 }
 .buttons li label::before{
@@ -86,7 +78,7 @@ body{
   -webkit-font-smoothing:antialiased;
   font-family:"Font Awesome 5 Free";
   font-weight:900;
-  font-size:12px;
+  font-size:15px;
   padding:2px 6px 2px 2px;
   transition:transform .3s ease-in-out;
 }
@@ -112,7 +104,7 @@ body{
   background-color:#b12331;
   border:20px solid white;
   color:white;
-  font-size:1.3em;
-  padding:5px;
+  font-size:20px;
+  padding:0.3em 0em;
 
 }
