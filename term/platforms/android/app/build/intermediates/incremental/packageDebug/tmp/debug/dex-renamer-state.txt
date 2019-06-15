@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Sat Jun 15 05:01:57 KST 2019
-=======
-#Sat Jun 15 03:20:27 KST 2019
->>>>>>> parent of a48b4e2... commit 6/15 3:30
+#Sat Jun 15 08:35:56 KST 2019
 path.1=classes.dex
 path.0=classes.dex
 renamed.10=classes11.dex

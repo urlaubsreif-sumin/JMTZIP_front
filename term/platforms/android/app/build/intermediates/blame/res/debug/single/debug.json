@@ -8,12 +8,12 @@
         "source": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
-        "source": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
         "source": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
