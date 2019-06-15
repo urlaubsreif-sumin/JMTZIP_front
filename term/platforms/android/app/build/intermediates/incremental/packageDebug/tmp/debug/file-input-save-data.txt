@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jun 15 17:06:19 KST 2019
+#Sat Jun 15 16:56:23 KST 2019
 2.path=www/css/list.css
 14.set=ASSET
 107.baseType=DIRECTORY
