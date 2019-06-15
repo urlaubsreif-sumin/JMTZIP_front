@@ -102,5 +102,21 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-sqlite-ext": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-sqlite-ext"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-dbcopy": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
