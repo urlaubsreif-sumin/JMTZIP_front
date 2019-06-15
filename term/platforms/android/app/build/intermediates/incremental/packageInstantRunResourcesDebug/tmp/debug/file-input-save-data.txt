@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Sat Jun 15 16:56:21 KST 2019
-2.path=www/css/list.css
+#Sat Jun 15 17:40:36 KST 2019
+2.path=www/res/screen/android/drawable-port-xhdpi-screen.png
 14.set=ASSET
 107.baseType=DIRECTORY
 88.baseType=DIRECTORY
@@ -18,7 +18,7 @@
 104.path=www/plugins/cordova-plugin-media-capture/www/MediaFile.js
 152.baseType=DIRECTORY
 32.baseType=DIRECTORY
-131.path=www/res/icon/ios/icon-76.png
+131.path=www/plugins/cordova-plugin-dbcopy/www/sqlDB.js
 118.baseType=DIRECTORY
 132.set=ASSET
 99.baseType=DIRECTORY
@@ -70,7 +70,7 @@
 135.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 105.path=www/res/screen/ios/Default-Portrait@2x~ipad.png
 110.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-132.path=www/res/icon/windows/Square150x150Logo.scale-100.png
+132.path=www/res/icon/ios/icon-76.png
 65.baseType=DIRECTORY
 142.set=ASSET
 14.baseType=DIRECTORY
@@ -125,7 +125,7 @@
 111.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 151.baseType=DIRECTORY
 31.baseType=DIRECTORY
-133.path=www/plugins/cordova-plugin-dbcopy/www/sqlDB.js
+133.path=www/res/icon/windows/Square150x150Logo.scale-100.png
 106.set=ASSET
 117.baseType=DIRECTORY
 98.baseType=DIRECTORY
@@ -362,7 +362,7 @@
 126.baseType=DIRECTORY
 149.path=www/plugins/cordova-plugin-geolocation/www/PositionError.js
 124.path=www/css/subFirstPage.css
-151.path=www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js
+151.path=www/matzip.db
 121.set=ASSET
 count=153
 121.baseType=DIRECTORY
@@ -421,7 +421,7 @@ count=153
 125.path=www/res/icon/ios/icon-small.png
 130.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 100.path=www/res/icon/android/drawable-xxhdpi-icon.png
-152.path=www/matzip.db
+152.path=www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js
 131.set=ASSET
 34.baseType=DIRECTORY
 28.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
@@ -562,7 +562,7 @@ count=153
 4.base=C\:\\Users\\user\\Desktop\\lecture\\2019_Spring\\JMTZIP_front\\term\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 143.path=www/res/screen/wp8/screen-portrait.jpg
 147.set=ASSET
-1.path=www/res/screen/android/drawable-port-xhdpi-screen.png
+1.path=www/css/list.css
 55.baseType=DIRECTORY
 108.set=ASSET
 50.set=ASSET
