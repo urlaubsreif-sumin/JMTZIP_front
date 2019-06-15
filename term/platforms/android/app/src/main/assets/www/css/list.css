@@ -118,7 +118,7 @@ input{
   border-right:2px solid #b12331;
   padding:10px;
   font-size:18px;
-  width:80%;
+  width:70%;
 }
 #searchbar button{
   border:none;
@@ -132,7 +132,7 @@ input{
   height:3em;
   background-color:#b12331;
   color:white;
-  position:absolute;
+  position:fixed;
   bottom:2em;
   right:2em;
 }
