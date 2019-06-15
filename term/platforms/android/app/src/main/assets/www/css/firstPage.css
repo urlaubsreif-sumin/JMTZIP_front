@@ -96,7 +96,7 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
   display:absolute;
   opacity:0;
 }
-.buttons li input[type="chekbox"]:focus+label{
+.buttons li input[type="checkbox"]:focus+label{
   border:2px solid #9a1ff;
 }
 .go button{

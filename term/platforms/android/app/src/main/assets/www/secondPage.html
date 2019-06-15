@@ -24,25 +24,23 @@
 <body>
 <div class="header">
 
-    <button onclick="window.location.href='./index.html'"><</button>
-
+    <button onclick="history.go(-1)"> < </button>
+    <p>고를게!</p>
 </div>
 
-</div>
-<div class="title">
-    <h1>오늘 점심 뭐 먹지?</h1>
-</div>
+
 <div class="body">
-    <div class="search">
-        <button onclick="window.location.href='./subSecondPage.html'">검색</button>
+    <div id="searchbar">
+        <input type="text" name="search">
+        <button onclick="window.location.href='./subFirstPage.html'">검색</button>
     </div>
-    <div class="ranking">
-        <button onclick="window.location.href='./firstDetailPage.html'">1위</button>
-        <button onclick="window.location.href='./firstDetailPage.html'">2위</button>
-        <button onclick="window.location.href='./firstDetailPage.html'">3위</button>
-        <button onclick="window.location.href='./firstDetailPage.html'">4위</button>
-        <button onclick="window.location.href='./firstDetailPage.html'">5위</button>
-    </div>
+    <ul class="ranking">
+        <li><button onclick="window.location.href='./firstDetailPage.html'">톤쇼우</button></li>
+        <li><button onclick="window.location.href='./firstDetailPage.html'">카츠안</button></li>
+        <li><button onclick="window.location.href='./firstDetailPage.html'">모모카레</button></li>
+        <li><button onclick="window.location.href='./firstDetailPage.html'">스페로 스페라</button></li>
+        <li><button onclick="window.location.href='./firstDetailPage.html'">푸짐한 집</button></li>
+    </ul>
 
 </div>
 
