@@ -23,37 +23,45 @@
 
 <body>
 <div class="header">
-    <button onclick="history.go(-1)"><</button>
-    <p>[가게 명]</p>
+    <button id="backButton" onclick="history.go(-1)"><</button>
+    <p>"</p>
+    <p id = "name">톤쇼우</p>
+    <p>"</p>
     <p>한 줄 평</p>
 </div>
 <div class="body">
     <table>
         <th>닉네임</th>
         <th>한 줄 평</th>
+        <th>평점</th>
         <tr>
-            <td id="name1">닉네임1</td>
-            <td id="comment1">한줄평1</td>
+            <td id="name1">톤쇼우좋아</td>
+            <td id="comment1">맛있어요!</td>
+            <td id="star1">5.0</td>
         </tr>
         <tr>
-            <td id="name2">닉네임2</td>
-            <td id="comment2">한줄평2</td>
+            <td id="name2">톤쇼우시렁</td>
+            <td id="comment2">걍 그럼</td>
+            <td id="star2">3.5</td>
         </tr>
-        <tr>
+        <!--tr>
             <td id="name3">닉네임3</td>
             <td id="comment3">한줄평3</td>
-        </tr>
+            <td id="star3">평점3</td>
+        </--tr>
         <tr>
             <td id="name4">닉네임4</td>
             <td id="comment4">한줄평4</td>
+            <td id="star4">평점4</td>
         </tr>
         <tr>
             <td id="name5">닉네임5</td>
             <td id="comment5">한줄평5</td>
-        </tr>
+            <td id="star5">평점5</td>
+        </tr-->
 
     </table>
-    <button onclick="window.location.href='./aplCommentPage.html'">+</button>
+    <button id="goButton" onclick="window.location.href='./aplCommentPage.html'">+</button>
 </div>
 
 <script type="text/javascript" src="cordova.js"></script>

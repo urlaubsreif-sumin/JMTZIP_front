@@ -19,48 +19,56 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
 .header{
   display:flex;
   flex-direction:row;
-  justify-content:flex-start;
-  height:3em;
-  background-color:#b12331;
-  color:white;
+  color:#b12331;
   font-weight:bold;
+  font-size:20px;
 }
 .header button{
-  flex-grow:1;
-  background-color:#b12331;
   border:none;
-  color:white;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
+  font-weight:bold;
+  font-size:20px;
 }
-.header p{
-  flex-grow:3;
-  background-color:#b12331;
-  color:white;
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+#backButton {
+  background:white;
+  font-weight:bold;
+  color:#b12331;
+  padding:1em;
   border:none;
 }
-.body{
-  margin-left:auto;
-  margin-right:auto;
-
+.header button:hover ,.herader button:active{
+  background:#eaeaea;
+  border:none;
 }
 table{
   width:100%;
   text-align:center;
+  border:1px solid #cdcdcd;
 }
 table th{
   background:#eaeaea;
   border: 1px solid #eaeaea;
   padding:5px;
+  border:1px solid #cdcdcd;
 }
 table td{
   padding:8px;
+  border:1px solid #cdcdcd
 }
-.body button{
-  border:none;
-  background-color:#b12331;
-  color:white;
-  font-size:1em;
-  text-align:center;
+
+#goButton {
   border-radius:50%;
-  padding:5px;
+  font-size:40px;
+  border:none;
+  padding:0.1em 0.4em;;
+  color : white;
+  background:#b12331;
+  font-weight:bold;
   float:right;
+  margin:0.4em 0.4em;
 }

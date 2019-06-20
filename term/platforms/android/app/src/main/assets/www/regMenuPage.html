@@ -23,18 +23,14 @@
 
 <body>
 <div class="header">
-
-    <button onclick="window.location.href='./secondDetailPage.html'"><</button>
-
-    <button onclick="history.go(-1)">[<<]</button>
-
+    <button onclick="history.go(-1)"><</button>
     <p>가게 명</p>
 </div>
 <div class="body">
     <p>메뉴를 등록해주세요.</p>
-    <input type="text" name="menu"  value="메뉴">
-    <input type="text" name="price" value="가격">
-    <button onclick="window.location.href='./secondDetailPage.html'">등록할게요!</button>
+    <input type="text" name="menu"  placeholder="메뉴">
+    <input type="text" name="price" placeholder="가격">
+    <button id="goButton" onclick="window.location.href='./secondDetailPage.html'">등록할게요!</button>
 </div>
 
 <script type="text/javascript" src="cordova.js"></script>

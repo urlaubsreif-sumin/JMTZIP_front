@@ -26,45 +26,56 @@ body{
   display:flex;
   flex-direction:row;
   justify-content:basline;
-  background-color:#b12331;
-  color:white;
+  color:#b12331;
   font-weight:bold;
+  font-size:20px;
 }
 .header button{
-  background-color:#b12331;
+  border:none;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
   font-weight:bold;
-  color:white;
+  font-size:20px;
+}
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+#backButton {
+  background:white;
+  font-weight:bold;
+  color:#b12331;
   padding:1em;
   border:none;
 }
 .header button:hover ,.herader button:active{
   background:#eaeaea;
-  color:#b12331;
   border:none;
 }
-.body{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  text-align:space-around;
+input {
+  padding:1em;
+  margin:0.8em ;
+  width:80%;
+  height:1em;
+  font-size:15px;
 }
 #commentbox{
-  height:50px;
+  height:8em;
+}
+.star{
+  margin:0 0.8em
 }
 #star{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-  padding:4px;
-
+  width:auto;
 }
-.body button{
-  border-radius:13px;
-  width:100%;
-  border:1.5px solid #b12331;
-  background-color : #b12331;
+
+#goButton{
+  width:89%;
+  background-color:#b12331;
+  border:none;
   color:white;
-  font-weight:bold;
-  float:right;
-  font-size:1.5em;
+  font-size:20px;
+  padding:0.3em 0em;
+  margin:0.8em;
+
 }

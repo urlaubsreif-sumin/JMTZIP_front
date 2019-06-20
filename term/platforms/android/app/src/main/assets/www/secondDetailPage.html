@@ -23,36 +23,36 @@
 
 <body>
 <div class="header">
-    <button onclick="history.go(-1)">[<<]</button>
-    <p>가게 명</p>
+    <button id="backButton" onclick="history.go(-1)"><</button>
+    <p>톤쇼우</p>
 </div>
 <div class="body">
     <table>
         <th>메뉴</th>
-        <th>가격</th>
+        <th>가격(원)</th>
         <tr>
-            <td id="menu1">메뉴1</td>
-            <td id="price1">가격1</td>
+            <td id="menu1">로스카츠</td>
+            <td id="price1">8500</td>
         </tr>
         <tr>
-            <td id="menu2">메뉴2</td>
-            <td id="price2">가격2</td>
+            <td id="menu2">히레카츠</td>
+            <td id="price2">9500</td>
         </tr>
         <tr>
-            <td id="menu3">메뉴3</td>
-            <td id="price3">가격3</td>
+            <td id="menu3">큰로스카츠</td>
+            <td id="price3">11000</td>
         </tr>
         <tr>
-            <td id="menu4">메뉴4</td>
-            <td id="price4">가격4</td>
+            <td id="menu4">카츠산도</td>
+            <td id="price4">8000</td>
         </tr>
         <tr>
-            <td id="menu5">메뉴5</td>
-            <td id="price5">가격5</td>
+            <td id="menu5">버크셔K특로스카츠</td>
+            <td id="price5">15000</td>
         </tr>
 
     </table>
-    <button onclick="window.location.href='./regMenuPage.html'">[+]</button>
+    <button id="goButton" onclick="window.location.href='./regMenuPage.html'">+</button>
 </div>
 
 <script type="text/javascript" src="cordova.js"></script>

@@ -28,8 +28,26 @@ body{
   justify-content:basline;
   color:#b12331;
   font-weight:bold;
+  font-size:20px;
 }
 .header button{
+  border:none;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
+  font-weight:bold;
+  font-size:20px;
+}
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+.body p{
+  font-weight:bold;
+  color:#b12331;
+  font-size:18px;
+  margin:0.3em 0.8em;
+}
+#backButton {
   background:white;
   font-weight:bold;
   color:#b12331;
@@ -40,27 +58,30 @@ body{
   background:#eaeaea;
   border:none;
 }
-.body{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  padding:15px;
+input {
+  padding:1em;
+  margin:0.5em ;
+  width:80%;
+  height:1em;
+  font-size:15px;
 }
-.body input {
-  width:100%
-  padding:3px;
+#commentbox{
+  height:8em;
 }
-.body button{
-  border-radius:18px;
-  font-size:1.3em;
-  padding:10px;
-  width:100%;
-  border:none;
+.star{
+  margin:0 0.8em
+}
+#star{
+  width:auto;
+}
+
+#goButton{
+  width:89%;
   background-color:#b12331;
+  border:none;
   color:white;
-  text-align:center;
-  font-weight:bold;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  font-size:20px;
+  padding:0.3em 0em;
+  margin:0.8em;
+
 }

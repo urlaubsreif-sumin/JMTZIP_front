@@ -16,24 +16,28 @@ figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
   flex-wrap:nowrap;
   justify-content:space-around;
 }
-body{
-  display:flex;
-  background:white;
-  flex-direction:column;
-  justify-content:space-around;
-}
 .header{
   display:flex;
   flex-direction:row;
-  justify-content:basline;
-  background-color:#b12331;
-  color:white;
+  color:#b12331;
   font-weight:bold;
+  font-size:20px;
 }
 .header button{
-  background-color:#b12331;
+  border:none;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
   font-weight:bold;
-  color:white;
+  font-size:20px;
+}
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+#backButton {
+  background:white;
+  font-weight:bold;
+  color:#b12331;
   padding:1em;
   border:none;
 }
@@ -44,22 +48,27 @@ body{
 table{
   width:100%;
   text-align:center;
-  padding:15px;
+  border:1px solid #cdcdcd;
 }
 table th{
   background:#eaeaea;
   border: 1px solid #eaeaea;
   padding:5px;
+  border:1px solid #cdcdcd;
 }
 table td{
   padding:8px;
+  border:1px solid #cdcdcd
 }
-.body button{
+
+#goButton {
   border-radius:50%;
-  border:1.5px solid #b12331;
-  background-color : #b12331;
-  color:white;
+  font-size:40px;
+  border:none;
+  padding:0.1em 0.4em;;
+  color : white;
+  background:#b12331;
   font-weight:bold;
   float:right;
-  font-size:1.5em;
+  margin:0.4em 0.4em;
 }
