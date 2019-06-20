@@ -1,0 +1,104 @@
+@charset "utf-8"
+  /* for mobile */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,
+code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+
+  display:flex;
+  background:white;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+}
+body{
+  display:flex;
+  background:white;
+  flex-direction:column;
+  justify-content:space-around;
+}@charset "utf-8"
+  /* for mobile */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,
+code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+
+  display:flex;
+  background:white;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+}
+body{
+  display:flex;
+  background:white;
+  flex-direction:column;
+  justify-content:space-around;
+}.header{
+  display:flex;
+  flex-direction:row;
+  justify-content:baseline;
+  color:#b12331;
+  font-weight:bold;
+  font-size:20px;
+}
+.header button{
+  border:none;
+  background-color:white;
+  color:#b12331;
+  padding:20px;
+  font-weight:bold;
+  font-size:20px;
+}
+.header button:active, .header button:hover{
+  background:#f3f3f3
+}
+
+table{
+  width:100%;
+  text-align:center;
+}
+table th{
+  background:#eaeaea;
+  border: 1px solid #eaeaea;
+  padding:5px;
+}
+table td{
+  padding:8px;
+}
+body button{
+  border-radius:50%;
+  border:1.5px solid #b12331;
+  color : #b12331;
+  background:none;
+  font-weight:bold;
+}
+table{
+  width:100%;
+  text-align:center;
+}
+table th{
+  background:#eaeaea;
+  border: 1px solid #eaeaea;
+  padding:5px;
+}
+table td{
+  padding:8px;
+}
+body button{
+  border-radius:50%;
+  border:1.5px solid #b12331;
+  color : #b12331;
+  background:none;
+  font-weight:bold;
+}

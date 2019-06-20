@@ -55,7 +55,14 @@ table td{
   padding:8px;
   border:1px solid #cdcdcd
 }
-.body button{
+
+button{
+    float:right;
+    background-color:white;
+    border:1px solid #eaeaea;
+}
+#goButton {
+  float:none;
   border-radius:18px;
   font-size:1.3em;
   padding:5px;
